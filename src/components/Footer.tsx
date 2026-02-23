@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
 
         <p className="text-sm text-text-muted">
-          &copy; {new Date().getFullYear()} Thrive. All rights reserved.
+          &copy; {new Date().getFullYear()} Hyperactive Studio. All rights reserved.
         </p>
       </div>
     </footer>

@@ -36,7 +36,7 @@ export default function Hero() {
               streak tracking, Apple Health integration, and daily reflection
               &mdash; all in one beautiful app.
             </p>
-            <StoreBadges />
+            <StoreBadges className="justify-center lg:justify-start" />
           </motion.div>
 
           {/* Phone mockup */}
