@@ -1,6 +1,6 @@
 "use client";
 
-const TESTFLIGHT_URL = "https://testflight.apple.com/join/NGmKAzN3";
+const APP_STORE_URL = "https://apps.apple.com/us/app/thrive-habits/id6759080996";
 
 function AppleLogo({ className = "" }: { className?: string }) {
   return (
@@ -19,7 +19,7 @@ export default function StoreBadges({ className = "" }: { className?: string }) 
   return (
     <div className={`flex flex-wrap items-center gap-4 ${className}`}>
       <a
-        href={TESTFLIGHT_URL}
+        href={APP_STORE_URL}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 rounded-lg bg-black px-5 py-2.5 text-white transition-transform hover:scale-105"

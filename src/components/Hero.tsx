@@ -7,7 +7,6 @@ import PhoneMockup from "./PhoneMockup";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pb-20 pt-32 md:pb-32 md:pt-40">
-      {/* Background gradient */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute -top-40 right-0 h-[600px] w-[600px] rounded-full bg-primary/10 blur-3xl" />
         <div className="absolute -bottom-20 -left-20 h-[400px] w-[400px] rounded-full bg-secondary/10 blur-3xl" />
@@ -15,31 +14,26 @@ export default function Hero() {
 
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center gap-16 lg:flex-row lg:gap-20">
-          {/* Copy */}
           <motion.div
             className="flex-1 text-center lg:text-left"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
-              Build Better Habits
-            </span>
             <h1 className="mb-6 text-5xl font-extrabold leading-tight tracking-tight text-foreground md:text-6xl lg:text-7xl">
-              Win your <br />
+              Show up as your{" "}
               <span className="bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent">
-                day.
+                best&nbsp;self.
               </span>
             </h1>
-            <p className="mb-8 max-w-lg text-lg leading-relaxed text-text-secondary md:text-xl">
-              Thrive helps you build lasting habits with flexible scheduling,
-              streak tracking, Apple Health integration, and daily reflection
-              &mdash; all in one beautiful app.
+            <p className="mx-auto mb-8 max-w-lg text-lg leading-relaxed text-text-secondary md:text-xl lg:mx-0">
+              You know what you should do every day. Thrive makes sure you
+              actually do it&mdash;with smart tracking, AI accountability,
+              and zero friction.
             </p>
             <StoreBadges className="justify-center lg:justify-start" />
           </motion.div>
 
-          {/* Phone mockup */}
           <motion.div
             className="flex-shrink-0"
             initial={{ opacity: 0, y: 40 }}

@@ -14,29 +14,35 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thrive — Win Your Day",
+  title: "Thrive — AI-Powered Habit Tracker for iPhone",
   description:
-    "Build lasting habits, track your streaks, and see real progress. Thrive helps you stay consistent with flexible scheduling, Apple Health integration, daily journaling, and more.",
+    "Build lasting habits with zero friction. Thrive features AI weekly recaps, an evening voice check-in call, Apple Health auto-completion, daily journaling, and streak tracking. Start your free 7-day trial.",
   keywords: [
     "habit tracker",
+    "AI habit tracker",
     "daily habits",
     "streak tracker",
     "Apple Health",
-    "productivity",
+    "evening check-in",
+    "voice accountability",
+    "weekly recaps",
+    "daily journal",
     "goal tracking",
+    "productivity",
+    "habit app iPhone",
   ],
   openGraph: {
-    title: "Thrive — Win Your Day",
+    title: "Thrive — AI-Powered Habit Tracker for iPhone",
     description:
-      "Build lasting habits, track your streaks, and see real progress.",
+      "Your habits shouldn't need willpower. Smart tracking, AI accountability, and zero friction. Free for 7 days.",
     type: "website",
     siteName: "Thrive",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Thrive — Win Your Day",
+    title: "Thrive — AI-Powered Habit Tracker for iPhone",
     description:
-      "Build lasting habits, track your streaks, and see real progress.",
+      "Your habits shouldn't need willpower. Smart tracking, AI accountability, and zero friction. Free for 7 days.",
   },
 };
 
